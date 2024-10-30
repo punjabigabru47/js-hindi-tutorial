@@ -15,4 +15,4 @@ console.log((Math.random() * 10) + 1) // +1 is added to eleminate 0 figure.
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min)) + min)
+console.log(Math.floor(Math.random() * (max - min)) + min) // t0 get random number between 10 and 20
