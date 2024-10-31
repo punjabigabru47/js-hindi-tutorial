@@ -19,3 +19,13 @@ console.log(myarr)
 console.log(mna1)
 console.log(mna2)
 console.log(myarr)
+
+const brothers = ['sunny', 'rinku', 'sonu']
+const cousin = ['bisky', 'kala', 'jipsy']
+
+const allBros = [...brothers, ...cousin] // spread opreator is better to combine multiple array
+
+console.log(allBros)
+//.from() method turn a string into an array 
+//Array.of() also combine multiple variables or values into one array.
+console.log(Array.from("sunny"))
